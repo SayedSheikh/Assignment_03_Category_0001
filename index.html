@@ -40,5 +40,81 @@
       };
     </script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <!-- navbar container -->
+      <div
+        class="h-[70px] md:h-[100px] flex items-center bg-[#FFF9F4] sm:border-none border-b border-[#111]">
+        <!-- navbar -->
+        <div class="w-11/12 mx-auto flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-3">
+            <img src="./c1-assets/logo-header.png" alt="" />
+            <h3
+              class="font-sora font-normal text-[26px] text-[#111111] hidden sm:block">
+              Browse<span class="text-primary2">4</span>Pets
+            </h3>
+          </div>
+          <!-- navigation -->
+          <div class="">
+            <ul
+              class="hidden lg:flex gap-8 items-center font-sora text-[20px] text-[#111] font-normal">
+              <li><a href="">Find a pet</a></li>
+              <li><a href="">Breeds</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <!-- icons & btns -->
+          <div class="flex gap-4 items-center">
+            <!-- icon -->
+            <div class="hidden xl:flex items-center gap-4">
+              <!-- icon-1 -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+              </svg>
+              <!-- icon-2 -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+            </div>
+            <!-- button -->
+            <div class="md:flex gap-3">
+              <button
+                class="font-sora font-normal text-xl bg-transparent border-2 text-[#111] border-primary2 rounded-lg px-[30px] py-[10px] hidden md:block">
+                Login
+              </button>
+              <button
+                class="font-sora font-normal text-xl bg-primary2 rounded-lg text-[#111] px-[30px] py-[10px] hidden md:block">
+                Register
+              </button>
+              <!-- bars icon -->
+              <div>
+                <i class="fa-solid fa-bars text-[30px] md:hidden"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
