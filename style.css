@@ -1,0 +1,48 @@
+.btn-container {
+  width: max-content;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.btn-container div {
+  height: 250%;
+  width: 30%;
+
+  background: linear-gradient(
+    to left,
+    rgba(208, 192, 192, 0.701),
+    rgba(128, 128, 128, 0)
+  );
+
+  z-index: 2;
+  position: absolute;
+  top: -50%;
+  /* left: -50%; */
+  transform: rotateZ(-25deg);
+  animation: shine 0.7s ease-in infinite, pauseEffect 1.4s steps(1) infinite;
+  /* animation: shine 1s linear infinite; */
+}
+
+@keyframes shine {
+  0% {
+    left: -40%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+@keyframes pauseEffect {
+  0% {
+    visibility: visible;
+  }
+  49.8% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}

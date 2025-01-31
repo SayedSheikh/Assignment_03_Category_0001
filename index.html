@@ -39,6 +39,8 @@
         },
       };
     </script>
+    <!-- vanilla CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="mb-[100px] mb:mb[140px]">
@@ -128,10 +130,13 @@
             Discover a world of treats, toys, and essentials handpicked for your
             furry friends. Shop now and make tails wag with joy!
           </p>
-          <button
-            class="font-sora font-normal text-sm md:text-xl sm:text-base bg-primary2 rounded-lg text-[#111] px-[25px] py-[8px]">
-            Find a pet
-          </button>
+          <div class="btn-container">
+            <div></div>
+            <button
+              class="font-sora font-normal text-sm md:text-xl sm:text-base bg-primary2 rounded-lg text-[#111] px-[25px] py-[8px]">
+              Find a pet
+            </button>
+          </div>
         </div>
         <!-- banner image -->
 
@@ -140,15 +145,17 @@
     </header>
     <main>
       <!-- brows by categories section -->
-      <div class="w-11/12 mx-auto md:mb-[150px] lg:mb-[230px] mb-[55px]">
+      <div
+        class="w-11/12 mx-auto md:mb-[150px] lg:mb-[230px] mb-[55px] flex flex-col justify-start">
         <h1 class="font-normal text-2xl md:text-4xl font-adlam mb-[48px]">
           Browse By Categories
         </h1>
         <!-- cards container -->
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-[24px]">
+        <div
+          class="flex flex-wrap gap-[15px] lg:gap-[24px] md:gap-[20px] justify-start">
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/dog-cartoon.png" alt="" class="w-full" />
             </div>
@@ -161,7 +168,7 @@
           </div>
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/fish-cartoon.png" alt="" class="w-full" />
             </div>
@@ -174,7 +181,7 @@
           </div>
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/cat-cartoon.png" alt="" class="w-full" />
             </div>
@@ -187,7 +194,7 @@
           </div>
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/bird-cartoon.png" alt="" class="w-full" />
             </div>
@@ -200,7 +207,7 @@
           </div>
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/mouse-cartoon.png" alt="" class="w-full" />
             </div>
@@ -213,7 +220,7 @@
           </div>
           <!-- card -->
           <div
-            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px]">
+            class="bg-primary1 rounded-xl flex justify-center items-center flex-col py-[34px] gap-[24px] w-[150px] sm:w-[170px] md:w-[200px] grow lg:flex-1">
             <div class="p-[10%] bg-white w-[50%] rounded-full">
               <img src="./c1-assets/rabbit-cartoon.png" alt="" class="w-full" />
             </div>
