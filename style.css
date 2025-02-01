@@ -3,6 +3,10 @@
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  z-index: 10;
+}
+.btn-container button {
+  z-index: 0;
 }
 
 .btn-container div {
@@ -21,7 +25,11 @@
   /* left: -50%; */
   transform: rotateZ(-25deg);
   animation: shine 0.7s ease-in infinite, pauseEffect 1.4s steps(1) infinite;
-  /* animation: shine 1s linear infinite; */
+  animation-play-state: running;
+}
+.btn-container:hover div {
+  opacity: 0;
+  animation-play-state: paused;
 }
 
 @keyframes shine {
