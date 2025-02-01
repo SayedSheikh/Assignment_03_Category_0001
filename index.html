@@ -30,6 +30,7 @@
             colors: {
               primary1: "#F9DF8A",
               primary2: "#ffdc26",
+              primary3: "rgba(255, 220, 38, 0.50)",
             },
             fontFamily: {
               adlam: ["ADLaM Display", "serif"],
@@ -464,7 +465,7 @@
       </div>
       <!-- low price section -->
       <div
-        class="max-w-[1320px] mx-auto md:mt-[140px] mt-0 flex flex-col lg:flex-row gap-[26px] px-4">
+        class="max-w-[1320px] mx-auto md:mt-[140px] mt-0 flex flex-col lg:flex-row gap-[26px] max-[1320px]:px-4">
         <!-- card-1 -->
         <div
           class="lg:w-[60%] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[25px] sm:pt-[38px] sm:pl-[34px] pt-[30px] pl-[10px] rounded-xl bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD]">
@@ -511,7 +512,42 @@
           </div>
         </div>
       </div>
+      <!-- news section -->
+      <div
+        class="px-4 translate-y-[50%] max-[645px]:-mt-[50%] max-[500px]:-mt-[70%] max-[768px]:-mt-[40%] md:-mt-[10%]">
+        <div
+          class="max-w-[1320px] mx-auto px-[23px] py-[32px] sm:px-0 bg-[#FFF9F4] rounded-[16px] flex flex-col justify-center items-center gap-8 md:flex-row md:gap-[32px]">
+          <!-- image -->
+          <div>
+            <img src="./c1-assets/cute-pet-mid.png" alt="" class="w-full" />
+          </div>
+          <!-- description -->
+          <div class="max-w-[536px] space-y-[20px] text-center md:text-start">
+            <h1
+              class="font-adlam md:text-[36] font-normal text-[22px] text-[#111] text-center md:text-start">
+              Get Awesome News!
+            </h1>
+            <p
+              class="font-sora md:text-[20px] font-normal text-base text-[#111] text-center md:text-start">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter email..."
+              required
+              class="w-full md:w-[90%] p-[18px] rounded-[8px]" />
+            <button
+              class="font-sora font-normal text-[14px] md:text-[20px] px-[24px] py-[8px] md:px-[30px] md:py-[10px] bg-primary2 rounded-lg">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="h-[654px] bg-primary3">
+      <h1></h1>
+    </footer>
   </body>
 </html>
