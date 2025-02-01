@@ -148,7 +148,7 @@
     <main>
       <!-- brows by categories section -->
       <div
-        class="w-11/12 mx-auto md:mb-[90px] lg:mb-[126px] mb-[55px] flex flex-col justify-start">
+        class="max-w-[1320px] px-4 mx-auto md:mb-[90px] lg:mb-[126px] mb-[55px] flex flex-col justify-start">
         <h1 class="font-normal text-2xl md:text-4xl font-adlam mb-[48px]">
           Browse By Categories
         </h1>
@@ -464,57 +464,67 @@
         </div>
       </div>
       <!-- low price section -->
-      <div
-        class="max-w-[1320px] mx-auto md:mt-[140px] mt-0 flex flex-col lg:flex-row gap-[26px] max-[1320px]:px-4">
-        <!-- card-1 -->
-        <div
-          class="lg:w-[60%] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[25px] sm:pt-[38px] sm:pl-[34px] pt-[30px] pl-[10px] rounded-xl bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD]">
-          <!-- description -->
-          <div class="font-adlam w-max self-start md:self-center">
-            <p class="font-sora text-xl font-normal hidden md:block">
-              Under Price
-            </p>
-            <h3 class="md:text-[32px] text-[22px] font-normal w-max">
-              Pet Grooming Mitt
-            </h3>
-            <h4 class="lg:text-[24px] font-normal hidden md:block text-white">
-              (Easy Hair Removal)
-            </h4>
-            <h2 class="md:text-[56px] text-[38px] font-normal">$7.99</h2>
+      <div class="max-w-[1320px] mx-auto md:mt-[140px] mt-0 max-[1320px]:px-4">
+        <h1
+          class="md:mb-[47px] mb-[32px] font-adlam md:text-[36px] text-[24px] font-base">
+          Everyday low Price
+        </h1>
+
+        <div class="flex flex-col lg:flex-row gap-[26px]">
+          <!-- card-1 -->
+          <div
+            class="lg:w-[60%] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[25px] sm:pt-[38px] sm:pl-[34px] pt-[30px] pl-[10px] rounded-xl bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD]">
+            <!-- description -->
+            <div class="font-adlam w-max self-start md:self-center">
+              <p class="font-sora text-xl font-normal hidden md:block">
+                Under Price
+              </p>
+              <h3 class="md:text-[32px] text-[22px] font-normal w-max">
+                Pet Grooming Mitt
+              </h3>
+              <h4 class="lg:text-[24px] font-normal hidden md:block text-white">
+                (Easy Hair Removal)
+              </h4>
+              <h2 class="md:text-[56px] text-[38px] font-normal">$7.99</h2>
+            </div>
+            <!-- image -->
+            <div class="flex justify-end md:static relative bottom-[3rem]">
+              <img
+                src="./c1-assets/cute-dog-mid.png"
+                alt=""
+                class="md:w-full w-[50%]" />
+            </div>
           </div>
-          <!-- image -->
-          <div class="flex justify-end md:static relative bottom-[3rem]">
-            <img
-              src="./c1-assets/cute-dog-mid.png"
-              alt=""
-              class="md:w-full w-[50%]" />
-          </div>
-        </div>
-        <!-- card-2 -->
-        <div
-          class="lg:w-[40%] flex flex-col rounded-xl bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A]">
-          <!-- description -->
-          <div class="font-adlam pt-[45px] pl-[50px]">
-            <h3 class="md:text-[32px] font-normal text-[22px] leading-[42px]">
-              T-Shirt for Dogs
-            </h3>
-            <h1
-              class="text-[38px] md:text-[56px] font-normal leading-[70px] text-[#FFDC26]">
-              $7.99
-            </h1>
-          </div>
-          <!-- div -->
-          <div class="flex justify-end relative sm:bottom-[4rem] bottom-[3rem]">
-            <img
-              src="./c1-assets/cute-pet-mid.png"
-              alt=""
-              class="w-[60%] sm:w-[50%] lg:w-[70%]" />
+          <!-- card-2 -->
+          <div
+            class="lg:w-[40%] flex flex-col rounded-xl bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A]">
+            <!-- description -->
+            <div class="font-adlam pt-[45px] pl-[50px]">
+              <h3 class="md:text-[32px] font-normal text-[22px] leading-[42px]">
+                T-Shirt for Dogs
+              </h3>
+              <h1
+                class="text-[38px] md:text-[56px] font-normal leading-[70px] text-[#FFDC26]">
+                $7.99
+              </h1>
+            </div>
+            <!-- div -->
+            <div
+              class="flex justify-end relative sm:bottom-[4rem] bottom-[3rem]">
+              <img
+                src="./c1-assets/cute-pet-mid.png"
+                alt=""
+                class="w-[60%] sm:w-[50%] lg:w-[70%]" />
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- FAQ Section -->
+
       <!-- news section -->
       <div
-        class="px-4 translate-y-[50%] max-[645px]:-mt-[50%] max-[500px]:-mt-[70%] max-[768px]:-mt-[40%] md:-mt-[10%]">
+        class="px-4 translate-y-[50%] max-[500px]:-mt-[70%] max-[645px]:-mt-[50%] max-[768px]:-mt-[40%] md:-mt-[10%] min-[1800px]:-mt-[5%]">
         <div
           class="max-w-[1320px] mx-auto px-[23px] py-[32px] sm:px-0 bg-[#FFF9F4] rounded-[16px] flex flex-col justify-center items-center gap-8 md:flex-row md:gap-[32px]">
           <!-- image -->
@@ -537,7 +547,7 @@
               id=""
               placeholder="Enter email..."
               required
-              class="w-full md:w-[90%] p-[18px] rounded-[8px]" />
+              class="w-full md:w-[90%] p-[18px] rounded-[8px] placeholder:text-[14px] placeholder:!font-sora placeholder:text-[#c4c4c4]" />
             <button
               class="font-sora font-normal text-[14px] md:text-[20px] px-[24px] py-[8px] md:px-[30px] md:py-[10px] bg-primary2 rounded-lg">
               Subscribe
@@ -546,8 +556,67 @@
         </div>
       </div>
     </main>
-    <footer class="h-[654px] bg-primary3">
-      <h1></h1>
+    <footer
+      class="md:h-[654px] h-[752px] bg-primary3 px-4 md:pb-[100px] pb-[30px] -z-[2]">
+      <!-- inner -->
+      <div class="max-w-[1320px] mx-auto h-full">
+        <div
+          class="flex md:items-end items-start h-full md:justify-between flex-col justify-end md:flex-row gap-[36px]">
+          <!-- browse pets -->
+          <div
+            class="max-w-[426px] flex items-start flex-col lg:gap-[24px] gap-[12px]">
+            <!-- logo -->
+            <div class="flex gap-[12px] items-center justify-center">
+              <div class="lg:size-[48px] size-[35px]">
+                <img src="./c1-assets/logo-footer.png" alt="" class="w-full" />
+              </div>
+              <h1
+                class="font-sora font-normal lg:text-[26px] text-[18px] text-[#111]">
+                Browse<span class="text-primary2">4</span>Pets
+              </h1>
+            </div>
+            <!-- description -->
+            <div>
+              <p
+                class="font-sora md:text-[20px] text-[16px] font-normal text-[rgba(17,17,17,.7)]">
+                Discover a world of treats, toys, and essentials handpicked for
+                your furry friends
+              </p>
+            </div>
+          </div>
+          <!-- navigation -->
+          <div>
+            <ul
+              class="font-sora font-normal lg:text-[20px] text-[16px] space-y-[20px] lg:space-y-[32px] text-[#111]">
+              <li><a href="">Find a Pet</a></li>
+              <li><a href="">Breeds</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- social -->
+          <div class="space-y-4 text-[#111]">
+            <p class="font-sora lg:text-base text-[14px] font-medium">
+              Follow Us
+            </p>
+            <!-- social icons -->
+            <div class="flex justify-between space-x-[29px]">
+              <a href=""
+                ><i class="fa-brands fa-facebook lg:text-[30px] text-[23px]"></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-instagram lg:text-[30px] text-[23px]"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-linkedin lg:text-[30px] text-[23px]"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-youtube lg:text-[30px] text-[23px]"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
